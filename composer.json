@@ -1,6 +1,6 @@
 {
-    "name": "yab/laravel-scout-mysql-driver",
-    "description": "MySQL driver for Laravel Scout.",
+    "name": "dreamfactory/laravel-scout-mysql-driver",
+    "description": "MySQL driver for Laravel Scout. Duplcate of yab/laravel-scout-mysql-driver.",
     "license": "MIT",
     "authors": [
         {
