@@ -67,7 +67,7 @@ class MySQLEngine extends Engine
         $model = $builder->model;
         $query = $model::whereRaw($whereRawString, $params);
         if ($mode->isFullText()) {
-            $query = $query->selectRaw(DB::raw($mode->buildSelectColumns($builder)), $params);
+            $query = $query->selectRaw(DB::raw($mode->buildSelectColumns($builder)), [$params[0]]);
         }
 
         if($builder->callback){
@@ -141,10 +141,10 @@ class MySQLEngine extends Engine
      * Flush all of the model's records from the engine.
      *
      * @param  \Illuminate\Database\Eloquent\Model  $model
-     * 
+     *
      * @return void
      */
-    public function flush($model) 
+    public function flush($model)
     {
     }
 
