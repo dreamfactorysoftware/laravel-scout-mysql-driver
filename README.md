@@ -1,5 +1,5 @@
 This is a duplicate of https://github.com/yabhq/laravel-scout-mysql-driver 
-made in order to fix https://github.com/yabhq/laravel-scout-mysql-driver/issues/108
+made in order to fix https://github.com/yabhq/laravel-scout-mysql-driver/issues/98
 
 Laravel Scout MySQL Driver
 ==========================
